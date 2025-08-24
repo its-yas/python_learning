@@ -1,0 +1,7 @@
+# calculate BMI
+
+mass=float(input('mass in kg:'))
+height=float(input('height in cm:'))
+
+bmi=mass/(height**2)
+print("your bmi is:",bmi)
